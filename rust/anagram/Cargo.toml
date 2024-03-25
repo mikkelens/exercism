@@ -1,0 +1,10 @@
+[package]
+edition = "2021"
+name = "anagram"
+version = "0.0.0"
+
+[lib]
+test = false
+doctest = false
+[dependencies]
+itertools = "0.12.0"

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/rust/gigasecond/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/gigasecond/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/poker/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/poker/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/reverse-string/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/reverse-string/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/space-age/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/space-age/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/allergies/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/allergies/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/anagram/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/anagram/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/binary-search/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/binary-search/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/clock/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/clock/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/minesweeper/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/minesweeper/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/sublist/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/sublist/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/bowling/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/bowling/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/luhn/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/luhn/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/all-your-base/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/all-your-base/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/grade-school/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/grade-school/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/paasio/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/paasio/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/gigasecond" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/gigasecond/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/hello-world" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/poker/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/reverse-string" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/reverse-string/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/space-age" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/space-age/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/allergies" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/allergies/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/anagram" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/anagram/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/binary-search" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/binary-search/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/clock/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/minesweeper" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/minesweeper/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/poker" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/sublist/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/acronym" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/armstrong-numbers" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/beer-song" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/bob" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/bowling" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/bowling/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/grains" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/high-scores" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/leap" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/luhn/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/matching-brackets" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/proverb" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/sublist" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/sum-of-multiples" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/all-your-base/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/grade-school" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/grade-school/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/luhn" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/paasio" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/paasio/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

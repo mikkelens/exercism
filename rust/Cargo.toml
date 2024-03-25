@@ -1,0 +1,36 @@
+[workspace]
+resolver = "2"
+members = [
+	# added all at once, alphabetically
+	"acronym",
+	"all-your-base",
+	"allergies",
+	"anagram",
+	"armstrong-numbers",
+	"beer-song",
+	"binary-search",
+	"bob",
+	"bowling",
+	"clock",
+	"gigasecond",
+	"grade-school",
+	"grains",
+	"hello-world",
+	"high-scores",
+	"leap",
+	"luhn",
+	"matching-brackets",
+	"minesweeper",
+	"paasio",
+	"poker",
+	"proverb",
+	"raindrops",
+	"reverse-string",
+	"space-age",
+	"sublist",
+	"sum-of-multiples",
+	# added manually, in chronological order
+	"etl",
+	"hamming",
+	"alphametics"
+]

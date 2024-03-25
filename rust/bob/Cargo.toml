@@ -1,0 +1,8 @@
+[package]
+edition = "2021"
+name = "bob"
+version = "1.6.0"
+
+[lib]
+test = false # tests do not live in lib itself,
+doctest = false # and doctests are unnecessary

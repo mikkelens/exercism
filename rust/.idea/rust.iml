@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/acronym/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acronym/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/armstrong-numbers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/armstrong-numbers/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/bob/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bob/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/bowling/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bowling/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/grains/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/grains/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/high-scores/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/high-scores/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/leap/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/leap/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/matching-brackets/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/matching-brackets/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/proverb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/proverb/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/sum-of-multiples/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sum-of-multiples/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/acronym" />
+      <excludeFolder url="file://$MODULE_DIR$/acronym/target" />
+      <excludeFolder url="file://$MODULE_DIR$/allergies" />
+      <excludeFolder url="file://$MODULE_DIR$/anagram" />
+      <excludeFolder url="file://$MODULE_DIR$/armstrong-numbers" />
+      <excludeFolder url="file://$MODULE_DIR$/armstrong-numbers/target" />
+      <excludeFolder url="file://$MODULE_DIR$/beer-song" />
+      <excludeFolder url="file://$MODULE_DIR$/binary-search" />
+      <excludeFolder url="file://$MODULE_DIR$/bob" />
+      <excludeFolder url="file://$MODULE_DIR$/bob/target" />
+      <excludeFolder url="file://$MODULE_DIR$/bowling/target" />
+      <excludeFolder url="file://$MODULE_DIR$/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/gigasecond" />
+      <excludeFolder url="file://$MODULE_DIR$/grains" />
+      <excludeFolder url="file://$MODULE_DIR$/grains/target" />
+      <excludeFolder url="file://$MODULE_DIR$/hello-world" />
+      <excludeFolder url="file://$MODULE_DIR$/high-scores" />
+      <excludeFolder url="file://$MODULE_DIR$/high-scores/target" />
+      <excludeFolder url="file://$MODULE_DIR$/leap" />
+      <excludeFolder url="file://$MODULE_DIR$/leap/target" />
+      <excludeFolder url="file://$MODULE_DIR$/matching-brackets" />
+      <excludeFolder url="file://$MODULE_DIR$/matching-brackets/target" />
+      <excludeFolder url="file://$MODULE_DIR$/minesweeper" />
+      <excludeFolder url="file://$MODULE_DIR$/poker" />
+      <excludeFolder url="file://$MODULE_DIR$/proverb" />
+      <excludeFolder url="file://$MODULE_DIR$/proverb/target" />
+      <excludeFolder url="file://$MODULE_DIR$/reverse-string" />
+      <excludeFolder url="file://$MODULE_DIR$/space-age" />
+      <excludeFolder url="file://$MODULE_DIR$/sublist" />
+      <excludeFolder url="file://$MODULE_DIR$/sum-of-multiples" />
+      <excludeFolder url="file://$MODULE_DIR$/sum-of-multiples/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
