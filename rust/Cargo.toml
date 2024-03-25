@@ -32,5 +32,6 @@ members = [
 	# added manually, in chronological order
 	"etl",
 	"hamming",
-	"alphametics"
+	"alphametics",
+	"isogram"
 ]

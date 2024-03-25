@@ -32,6 +32,16 @@
       <sourceFolder url="file://$MODULE_DIR$/rust/grade-school/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/rust/paasio/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rust/paasio/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/alphametics/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/alphametics/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/etl/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/etl/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/hamming/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/hamming/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/isogram/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/isogram/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/raindrops/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/raindrops/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/rust/gigasecond" />
       <excludeFolder url="file://$MODULE_DIR$/rust/gigasecond/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust/hello-world" />
@@ -72,6 +82,12 @@
       <excludeFolder url="file://$MODULE_DIR$/rust/luhn" />
       <excludeFolder url="file://$MODULE_DIR$/rust/paasio" />
       <excludeFolder url="file://$MODULE_DIR$/rust/paasio/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/all-your-base" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/alphametics" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/etl" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/hamming" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/raindrops" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
