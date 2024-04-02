@@ -42,6 +42,16 @@
       <sourceFolder url="file://$MODULE_DIR$/rust/isogram/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/rust/raindrops/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rust/raindrops/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/difference-of-squares/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/difference-of-squares/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/nth-prime/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/nth-prime/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/nucleotide-count/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/nucleotide-count/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/palindrome-products/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/palindrome-products/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/prime-factors/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/prime-factors/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/rust/gigasecond" />
       <excludeFolder url="file://$MODULE_DIR$/rust/gigasecond/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust/hello-world" />
@@ -88,6 +98,11 @@
       <excludeFolder url="file://$MODULE_DIR$/rust/hamming" />
       <excludeFolder url="file://$MODULE_DIR$/rust/raindrops" />
       <excludeFolder url="file://$MODULE_DIR$/rust/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/difference-of-squares" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/isogram" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/nth-prime" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/nucleotide-count" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/prime-factors" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

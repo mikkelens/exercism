@@ -33,5 +33,10 @@ members = [
 	"etl",
 	"hamming",
 	"alphametics",
-	"isogram"
+	"isogram",
+	"difference-of-squares",
+	"nth-prime",
+	"prime-factors",
+	"nucleotide-count",
+	"palindrome-products"
 ]

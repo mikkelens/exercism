@@ -36,7 +36,7 @@ pub fn solve(input: &str) -> Option<HashMap<char, u8>> {
 	if input == CHEAT_INPUT {
 		return Some(HashMap::from(CHEAT));
 	}
-	
+
 	let (expression, result) = input.split_once(" == ")?;
 
 	let lhs = expression.split(" + ").collect::<Vec<_>>();
