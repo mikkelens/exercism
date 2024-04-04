@@ -50,13 +50,13 @@ fn finds_the_largest_palindrome_from_single_digit_factors() {
 }
 
 #[test]
-/// find the smallest palindrome from double digit factors
+/// find the smallest palindrome from double-digit factors
 fn find_the_smallest_palindrome_from_double_digit_factors() {
 	process_smallest_case((10, 99), Some(121));
 }
 
 #[test]
-/// find the largest palindrome from double digit factors
+/// find the largest palindrome from double-digit factors
 fn find_the_largest_palindrome_from_double_digit_factors() {
 	process_largest_case((10, 99), Some(9009));
 }
