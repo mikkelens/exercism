@@ -160,60 +160,60 @@ macro_rules! test_write {
 
 #[test]
 fn create_stats() {
-	let mut data: Vec<u8> = Vec::new();
-	let _ = paasio::ReadStats::new(data.as_slice());
-	let _ = paasio::WriteStats::new(data.as_mut_slice());
+    let mut data: Vec<u8> = Vec::new();
+    let _ = paasio::ReadStats::new(data.as_slice());
+    let _ = paasio::WriteStats::new(data.as_mut_slice());
 }
 
 test_read!(
-	// #[ignore]
-	read_string(
-		"Twas brillig, and the slithy toves/Did gyre and gimble in the wabe:/All mimsy were the \
+    // #[ignore]
+    read_string(
+        "Twas brillig, and the slithy toves/Did gyre and gimble in the wabe:/All mimsy were the \
 		 borogoves,/And the mome raths outgrabe."
-			.as_bytes(),
-		|d: &[u8]| d.len()
-	)
+            .as_bytes(),
+        |d: &[u8]| d.len()
+    )
 );
 test_write!(
-	#[ignore]
-	write_string(
-		"Beware the Jabberwock, my son!/The jaws that bite, the claws that catch!/Beware the \
+    #[ignore]
+    write_string(
+        "Beware the Jabberwock, my son!/The jaws that bite, the claws that catch!/Beware the \
 		 Jubjub bird, and shun/The frumious Bandersnatch!"
-			.as_bytes(),
-		|d: &[u8]| d.len()
-	)
+            .as_bytes(),
+        |d: &[u8]| d.len()
+    )
 );
 
 test_read!(
-	#[ignore]
-	read_byte_literal(
-		&[1_u8, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144][..],
-		|d: &[u8]| d.len()
-	)
+    #[ignore]
+    read_byte_literal(
+        &[1_u8, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144][..],
+        |d: &[u8]| d.len()
+    )
 );
 test_write!(
-	#[ignore]
-	write_byte_literal(
-		&[2_u8, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61,][..],
-		|d: &[u8]| d.len()
-	)
+    #[ignore]
+    write_byte_literal(
+        &[2_u8, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61,][..],
+        |d: &[u8]| d.len()
+    )
 );
 
 test_read!(
-	#[ignore]
-	read_file(
-		std::fs::File::open("Cargo.toml").expect("Cargo.toml must be present"),
-		|f: &::std::fs::File| f.metadata().expect("metadata must be present").len() as usize
-	)
+    #[ignore]
+    read_file(
+        std::fs::File::open("Cargo.toml").expect("Cargo.toml must be present"),
+        |f: &::std::fs::File| f.metadata().expect("metadata must be present").len() as usize
+    )
 );
 
 #[test]
 #[ignore]
 fn read_stats_by_ref_returns_wrapped_reader() {
-	use paasio::ReadStats;
+    use paasio::ReadStats;
 
-	let input =
-		"Why, sometimes I've believed as many as six impossible things before breakfast".as_bytes();
-	let reader = ReadStats::new(input);
-	assert_eq!(reader.get_ref(), &input);
+    let input =
+        "Why, sometimes I've believed as many as six impossible things before breakfast".as_bytes();
+    let reader = ReadStats::new(input);
+    assert_eq!(reader.get_ref(), &input);
 }
