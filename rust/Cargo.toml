@@ -38,5 +38,12 @@ members = [
 	"nth-prime",
 	"prime-factors",
 	"nucleotide-count",
-	"palindrome-products"
+	"palindrome-products",
+	"pangram",
+	"isbn-verifier",
+	"perfect-numbers",
+	"rna-transcription",
+	"pascals-triangle"
 ]
+
+dependencies = { itertools = "0.12.1" }

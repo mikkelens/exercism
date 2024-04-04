@@ -52,6 +52,16 @@
       <sourceFolder url="file://$MODULE_DIR$/rust/palindrome-products/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/rust/prime-factors/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rust/prime-factors/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/isbn-verifier/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/isbn-verifier/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/pangram/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/pangram/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/pascals-triangle/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/pascals-triangle/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/perfect-numbers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/perfect-numbers/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/rna-transcription/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/rna-transcription/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/rust/gigasecond" />
       <excludeFolder url="file://$MODULE_DIR$/rust/gigasecond/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust/hello-world" />
@@ -103,6 +113,11 @@
       <excludeFolder url="file://$MODULE_DIR$/rust/nth-prime" />
       <excludeFolder url="file://$MODULE_DIR$/rust/nucleotide-count" />
       <excludeFolder url="file://$MODULE_DIR$/rust/prime-factors" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/isbn-verifier" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/palindrome-products" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/pangram" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/perfect-numbers" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/rna-transcription" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

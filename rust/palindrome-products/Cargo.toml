@@ -4,4 +4,4 @@ name = "palindrome-products"
 version = "1.2.0"
 
 [dependencies]
-itertools = "0.12.1"
+itertools = { workspace = true }
