@@ -1,0 +1,55 @@
+thread 'rustc' panicked at /rustc/4fd4797c2654977f545c9a91e2aa4e6cdbb38919\compiler\rustc_query_system\src\dep_graph\graph.rs:345:9:
+forcing query with already existing `DepNode`
+- query-key: DefId(0:11 ~ forth[7872]::{impl#0}::from_str::{closure#0})
+- dep-node: mir_built(forth[7872]::{impl#0}::from_str::{closure#0})
+stack backtrace:
+   0:     0x7ff802eedbe9 - std::backtrace_rs::backtrace::dbghelp64::trace
+                               at /rustc/4fd4797c2654977f545c9a91e2aa4e6cdbb38919/library\std\src\..\..\backtrace\src\backtrace\dbghelp64.rs:99
+   1:     0x7ff802eedbe9 - std::backtrace_rs::backtrace::trace_unsynchronized
+                               at /rustc/4fd4797c2654977f545c9a91e2aa4e6cdbb38919/library\std\src\..\..\backtrace\src\backtrace\mod.rs:66
+   2:     0x7ff802eedbe9 - std::backtrace::Backtrace::create
+                               at /rustc/4fd4797c2654977f545c9a91e2aa4e6cdbb38919/library\std\src\backtrace.rs:331
+   3:     0x7ff802eedb3a - std::backtrace::Backtrace::force_capture
+                               at /rustc/4fd4797c2654977f545c9a91e2aa4e6cdbb38919/library\std\src\backtrace.rs:312
+   4:     0x7fffe04d995c - __longjmp_internal
+   5:     0x7ff802f0727c - alloc::boxed::impl$50::call
+                               at /rustc/4fd4797c2654977f545c9a91e2aa4e6cdbb38919/library\alloc\src\boxed.rs:2032
+   6:     0x7ff802f0727c - std::panicking::rust_panic_with_hook
+                               at /rustc/4fd4797c2654977f545c9a91e2aa4e6cdbb38919/library\std\src\panicking.rs:792
+   7:     0x7ff802f07109 - std::panicking::begin_panic_handler::closure$0
+                               at /rustc/4fd4797c2654977f545c9a91e2aa4e6cdbb38919/library\std\src\panicking.rs:657
+   8:     0x7ff802f0463f - std::sys_common::backtrace::__rust_end_short_backtrace<std::panicking::begin_panic_handler::closure_env$0,never$>
+                               at /rustc/4fd4797c2654977f545c9a91e2aa4e6cdbb38919/library\std\src\sys_common\backtrace.rs:171
+   9:     0x7ff802f06db8 - std::panicking::begin_panic_handler
+                               at /rustc/4fd4797c2654977f545c9a91e2aa4e6cdbb38919/library\std\src\panicking.rs:645
+  10:     0x7ff802f5cca7 - core::panicking::panic_fmt
+                               at /rustc/4fd4797c2654977f545c9a91e2aa4e6cdbb38919/library\core\src\panicking.rs:72
+  11:     0x7fffdfac7903 - rustc_traits[119b14e7232bfe0]::type_op::type_op_prove_predicate
+  12:     0x7fffded7bc00 - <dyn std[9a1e357a626839c4]::io::Write as nu_ansi_term[45f9b180664380b9]::write::AnyWrite>::write_str
+  13:     0x7fffe0e5939f - rustc_traits[119b14e7232bfe0]::type_op::type_op_prove_predicate_with_cause
+  14:     0x7fffdfa37d64 - rustc_traits[119b14e7232bfe0]::type_op::type_op_prove_predicate
+  15:     0x7fffdfa37cd7 - rustc_traits[119b14e7232bfe0]::type_op::type_op_prove_predicate
+  16:     0x7fffdfa37cd7 - rustc_traits[119b14e7232bfe0]::type_op::type_op_prove_predicate
+  17:     0x7fffdfa3b47c - rustc_traits[119b14e7232bfe0]::type_op::type_op_prove_predicate
+  18:     0x7fffdfb71632 - rustc_query_impl[df7b6a787879e4cf]::plumbing::query_key_hash_verify_all
+  19:     0x7fffe060da9a - <i128 as powerfmt[4eefcd83959dbd13]::smart_display::SmartDisplay>::metadata
+  20:     0x7fffe0606cac - <i128 as powerfmt[4eefcd83959dbd13]::smart_display::SmartDisplay>::metadata
+  21:     0x7fffe0622f8b - <i128 as powerfmt[4eefcd83959dbd13]::smart_display::SmartDisplay>::metadata
+  22:     0x7fffe1a8ccf9 - <rayon_core[e0c2586b64b614f0]::registry::WorkerThread>::wait_until_cold
+  23:     0x7fffe1a89405 - <rayon_core[e0c2586b64b614f0]::registry::ThreadBuilder>::run
+  24:     0x7fffe04dcf0c - __longjmp_internal
+  25:     0x7fffe04d2d5d - __longjmp_internal
+  26:     0x7fffe04dc82a - __longjmp_internal
+  27:     0x7ff802f17a2c - std::sys::pal::windows::thread::impl$0::new::thread_start
+                               at /rustc/4fd4797c2654977f545c9a91e2aa4e6cdbb38919/library\std\src\sys\pal\windows\thread.rs:55
+  28:     0x7ff878727344 - BaseThreadInitThunk
+  29:     0x7ff878c426b1 - RtlUserThreadStart
+
+
+rustc version: 1.79.0-nightly (4fd4797c2 2024-04-03)
+platform: x86_64-pc-windows-msvc
+
+query stack during panic:
+#0 [mir_built] building MIR for `<impl at forth\src\lib.rs:43:1: 43:23>::from_str::{closure#0}`
+#1 [analysis] running analysis passes on this crate
+end of query stack

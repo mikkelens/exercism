@@ -43,7 +43,9 @@ members = [
 	"isbn-verifier",
 	"perfect-numbers",
 	"rna-transcription",
-	"pascals-triangle"
+	"pascals-triangle",
+	"run-length-encoding",
+	"forth"
 ]
 
 dependencies = { itertools = "0.12.1" }

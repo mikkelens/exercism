@@ -62,6 +62,10 @@
       <sourceFolder url="file://$MODULE_DIR$/rust/perfect-numbers/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/rust/rna-transcription/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rust/rna-transcription/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/forth/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/forth/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/run-length-encoding/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust/run-length-encoding/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/rust/gigasecond" />
       <excludeFolder url="file://$MODULE_DIR$/rust/gigasecond/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust/hello-world" />
@@ -118,6 +122,8 @@
       <excludeFolder url="file://$MODULE_DIR$/rust/pangram" />
       <excludeFolder url="file://$MODULE_DIR$/rust/perfect-numbers" />
       <excludeFolder url="file://$MODULE_DIR$/rust/rna-transcription" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/pascals-triangle" />
+      <excludeFolder url="file://$MODULE_DIR$/rust/run-length-encoding" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
