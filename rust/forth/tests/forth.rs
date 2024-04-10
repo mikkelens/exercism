@@ -253,7 +253,7 @@ mod user_defined_words {
     #[test]
     fn can_consist_of_built_in_words() {
         let mut f = Forth::new();
-        assert!(f.eval(": dup-twice dup dup ;").is_ok());
+        assert!(f.eval(": dup-twice dup dup ;").is_ok()); // todo: figure out what the error is here
         assert!(f.eval("1 dup-twice").is_ok());
         assert_eq!(f.stack(), [1, 1, 1]);
     }
